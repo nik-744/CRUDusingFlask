@@ -1,0 +1,8 @@
+CREATE DATABASE crud_db;
+USE crud_db;
+
+CREATE TABLE users(
+user_id int auto_increment primary key,
+name varchar(50) not null,
+gender varchar(10) not null,
+mobile_number varchar(10) not null unique);
